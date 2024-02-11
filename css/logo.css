@@ -54,7 +54,7 @@
     cursor: none;
     min-height: 100lvh;
     background-color: #f2f2f2;
-    font-family: 'Mytupi';
+    font-family: sans-serif;
     color: #2f2f2f;
     overflow-x: hidden;
 }
@@ -68,8 +68,10 @@ nav{
     width: 100%;
     position: absolute;
     top: 5%;
-    left: 74%;
-    transform: translateX(-55%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 nav ul li{
     list-style: none;
@@ -79,7 +81,8 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #2f2f2f;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 700;
     transition: 0.5s;
 }
 nav ul li a:hover{
@@ -89,38 +92,59 @@ nav ul li a:hover{
 h1 {
     font-family: sans-serif;
     font-size: 75px;
+    font-weight: 900;
     text-align: center;
     position: relative;
-    top: 200px;
+    top: 100px;
     left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 p {
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     position: relative;
-    top: 200px;
+    top: 100px;
     left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .contain{
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 52%;
     transform: translateX(-55%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 h2 {
     font-family: sans-serif;
     font-size: 25px;
     text-align: center;
     position: relative;
-    top: 680px;
+    top: 580px;
     right: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 h3 {
     font-family: sans-serif;
     font-size: 25px;
     text-align: center;
     position: relative;
-    top: 650px;
+    top: 550px;
     left: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }

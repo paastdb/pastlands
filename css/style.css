@@ -54,7 +54,7 @@
     cursor: none;
     min-height: 100lvh;
     background-color: #f2f2f2;
-    font-family: 'Mytupi';
+    font-family: sans-serif;
     color: #2f2f2f;
     overflow-x: hidden;
 }
@@ -62,8 +62,13 @@ nav{
     width: 100%;
     position: absolute;
     top: 45%;
-    left: 69%;
-    transform: translateX(-55%);
+    left: 50%;
+    transform: translateX(-52%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 nav ul li{
     list-style: none;
@@ -74,6 +79,7 @@ nav ul li a{
     text-decoration: none;
     color: #2f2f2f;
     font-size: 50px;
+    font-weight: 700;
     transition: 0.5s;
 }
 nav ul li a:hover{
@@ -81,7 +87,7 @@ nav ul li a:hover{
     color: transparent;
 }
 .content a{
-    font-family: 'Positions By Arixbored';
+    font-family: sans-serif;
     text-decoration: none;
     display: inline-block;
     color: #2f2f2f;
@@ -93,6 +99,10 @@ nav ul li a:hover{
     top: 42%;
     left: 50%;
     transform: translateX(-55%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .content a:hover{
     -webkit-text-stroke: 2px #2f2f2f;
