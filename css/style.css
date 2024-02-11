@@ -121,6 +121,10 @@ nav ul li a:hover{
     position: relative;
     top: 550px;
     left: 860px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .row::after {
