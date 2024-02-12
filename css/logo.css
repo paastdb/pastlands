@@ -53,9 +53,9 @@
   html, body {
     cursor: none;
     min-height: 100lvh;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     font-family: sans-serif;
-    color: #2f2f2f;
+    color: #000000;
     overflow-x: hidden;
 }
 .container{
@@ -80,13 +80,13 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #2f2f2f;
+    color: #000000;
     font-size: 50px;
     font-weight: 700;
     transition: 0.5s;
 }
 nav ul li a:hover{
-    -webkit-text-stroke: 2px #2f2f2f;
+    -webkit-text-stroke: 2px #000000;
     color: transparent;
 }
 h1 {
